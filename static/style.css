@@ -1,0 +1,27 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  height: 100vh;
+}
+
+.mycalculator {
+  width: 95%;
+  max-width: 500px;
+  box-shadow: 0px 0px 3px 0px black;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+.mycalculator > button{
+  margin-top: 15px;
+  float: left;
+}
+
+.mycalculator h1 {
+  text-align: center;
+}
+button {
+  margin-left: 10px;
+}
